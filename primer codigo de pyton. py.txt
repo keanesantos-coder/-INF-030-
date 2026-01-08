@@ -1,0 +1,39 @@
+# Definimos funciones para cada operación
+def sumar(x, y):
+    return x + y
+
+def restar(x, y):
+    return x - y
+
+def multiplicar(x, y):
+    return x * y
+
+def dividir(x, y):
+    if y == 0:
+        return "Error: División por cero"
+    return x / y
+
+# Bloque principal
+print("Selecciona operación:")
+print("1.Suma / 2.Resta / 3.Multiplicación / 4.División")
+
+while True:
+    choice = input("Elige una opción (1/2/3/4) o 'q' para salir: ")
+
+    if choice.lower() == 'q':
+        break
+
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Primer número: "))
+        num2 = float(input("Segundo número: "))
+
+        if choice == '1':
+            print(num1, "+", num2, "=", sumar(num1, num2))
+        elif choice == '2':
+            print(num1, "-", num2, "=", restar(num1, num2))
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiplicar(num1, num2))
+        elif choice == '4':
+            print(num1, "/", num2, "=", dividir(num1, num2))
+    else:
+        print("Entrada no válida")
