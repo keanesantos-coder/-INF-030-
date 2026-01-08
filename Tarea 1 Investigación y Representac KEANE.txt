@@ -5,4 +5,6 @@ Comprender los elementos básicos que conforman un diagrama de flujo y aprender 
 ¿Por qué es importante esta tarea?
 Los diagramas de flujo son una herramienta fundamental en programación porque permiten visualizar la lógica de un algoritmo antes de escribir código. Esta tarea les ayudará a:
 
-HOLA
+Desarrollar pensamiento lógico.
+Entender cómo se estructura un proceso.
+Prepararse para diseñar algoritmos más complejos.
